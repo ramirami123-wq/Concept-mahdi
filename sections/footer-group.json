@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "t:sections.footer-group.name",
@@ -9,8 +18,9 @@
           "type": "column",
           "settings": {
             "icon": "support",
+            "custom_icon": "",
             "heading": "Customer service",
-            "text": "<p>It’s not actually free we just price it into the products.</p>",
+            "text": "",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -19,28 +29,9 @@
           "type": "column",
           "settings": {
             "icon": "box",
-            "heading": "Fast Free Shipping",
-            "text": "<p>Get free shipping on orders of $150 or more</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "column-3": {
-          "type": "column",
-          "settings": {
-            "icon": "users",
-            "heading": "Refer a friend",
-            "text": "<p>Refer a friend and get 15% off each other.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "column-4": {
-          "type": "column",
-          "settings": {
-            "icon": "shield",
-            "heading": "Secure payment",
-            "text": "<p>Your payment information is processed securely</p>",
+            "custom_icon": "",
+            "heading": "Fast Free Delivery",
+            "text": "",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -48,9 +39,7 @@
       },
       "block_order": [
         "column-1",
-        "column-2",
-        "column-3",
-        "column-4"
+        "column-2"
       ],
       "settings": {
         "style": "with-border",
@@ -64,6 +53,8 @@
         "description": "",
         "button_label": "",
         "button_link": "",
+        "button_external": false,
+        "button_icon": true,
         "highlighted_text": "none",
         "highlighted_scribble": "circle",
         "color_text": "",
@@ -87,7 +78,6 @@
         "logo_social": {
           "type": "logo_social",
           "settings": {
-            "logo": "",
             "logo_height": 50,
             "show_social": false,
             "enable_follow_on_shop": false
@@ -101,21 +91,13 @@
             "container_width": 50
           }
         },
-        "link_list-2": {
-          "type": "link_list",
-          "settings": {
-            "heading": "Information",
-            "menu": "footer",
-            "container_width": 50
-          }
-        },
         "brand_information": {
           "type": "brand_information",
           "settings": {
             "heading": "",
-            "button_label_1": "+21 (0) 987654321",
-            "button_link_1": "tel:+21(0)987654321",
-            "button_label_2": "hello@domain.com",
+            "button_label_1": "+961 70034408",
+            "button_link_1": "https://wa.me/+96170034408",
+            "button_label_2": "",
             "button_link_2": "mailto:hello@domain.com",
             "button_label_3": "",
             "button_link_3": "",
@@ -128,7 +110,6 @@
       "block_order": [
         "logo_social",
         "link_list-1",
-        "link_list-2",
         "brand_information"
       ],
       "settings": {
@@ -137,7 +118,6 @@
         "newsletter_heading": "Stay in the loop with our weekly newsletter",
         "newsletter_heading_size": "md:title-lg",
         "newsletter_text": "",
-        "newsletter_logo": "",
         "newsletter_logo_height": 50,
         "show_social": true,
         "enable_follow_on_shop": false,

@@ -295,13 +295,6 @@
             "custom_icon": "",
             "title": "Cart"
           }
-        },
-        "mobile-dock-6": {
-          "type": "account",
-          "settings": {
-            "custom_icon": "",
-            "title": "Account"
-          }
         }
       },
       "block_order": [
@@ -309,8 +302,7 @@
         "mobile-dock-2",
         "mobile-dock-3",
         "mobile-dock-4",
-        "mobile-dock-5",
-        "mobile-dock-6"
+        "mobile-dock-5"
       ],
       "settings": {
         "color_text": "#000000",
