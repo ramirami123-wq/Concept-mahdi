@@ -28,6 +28,18 @@
             "show_rating": true
           }
         },
+        "liquid_xqL97N": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<style>\n.star-review-wrapper {\ndisplay: flex;\nalign-items: center;\ngap: 8px;\nflex-shrink: 0;\n}\n\n.star-icons {\ndisplay: flex; /* makes stars horizontal */\ngap: 3px;\n}\n\n.star-icons svg {\nwidth: 20px;\nheight: 20px;\nfill: #c79027;\n}\n\n.review-text {\nfont-size: 16px;\nfont-weight: 500;\ncolor: #333;\nwhite-space: nowrap;\n}\n\n@media (max-width: 480px) {\n.star-review-wrapper {\nflex-direction: row;\njustify-content: center;\n}\n\n.review-text {\nfont-size: 15px;\n}\n}\n</style>\n\n<div class=\"star-review-wrapper\">\n<div class=\"star-icons\">\n\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n\n<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\"><path d=\"M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z\"/></svg>\n\n</div>\n\n<div class=\"review-text\">\n<strong>5</strong> by <strong>124+</strong> Customers\n</div>\n</div>"
+          }
+        },
+        "liquid_mhhG66": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">📱 Bigger Screen Instantly</span> – Enlarge your phone display and enjoy videos, movies, and browsing on a bigger screen in seconds.<br><br>\n\n<span style=\"font-weight: bold;\">👀 More Comfortable Viewing</span> – The HD optical lens helps reduce eye strain and makes watching content easier and more enjoyable.<br><br>\n\n<span style=\"font-weight: bold;\">🎬 Perfect for Movies & Videos</span> – Turn your smartphone into a mini theater anywhere — no apps, batteries, or setup required.\n</div>"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -59,7 +71,14 @@
           "settings": {
             "inventory_threshold": 15,
             "show_inventory_transfer": true,
+            "show_inventory_quantity": "low",
             "color_scheme": "accent-1"
+          }
+        },
+        "liquid_YnEDqf": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f5f5f5; font-size: 15px; border-radius: 13px; margin-top: 12px; margin-bottom: 12px; display: flex; align-items: center;\">\n<span class=\"em\" style=\"margin-right: 8px;\">\n<svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\" width=\"24px\" fill=\"#545454\">\n<path d=\"M240-160q-50 0-85-35t-35-85H40v-440q0-33 23.5-56.5T120-800h560v160h120l120 160v200h-80q0 50-35 85t-85 35q-50 0-85-35t-35-85H360q0 50-35 85t-85 35Zm0-80q17 0 28.5-11.5T280-280q0-17-11.5-28.5T240-320q-17 0-28.5 11.5T200-280q0 17 11.5 28.5T240-240ZM120-360h32q17-18 39-29t49-11q27 0 49 11t39 29h272v-360H120v360Zm600 120q17 0 28.5-11.5T760-280q0-17-11.5-28.5T720-320q-17 0-28.5 11.5T680-280q0 17 11.5 28.5T720-240Zm-40-200h170l-90-120h-80v120ZM360-540Z\"/>\n</svg>\n</span>\n<span>Order now to receive by <span id=\"delivery-dates\" style=\"font-weight: bold;\"></span></span>\n</div>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\nvar currentDate = new Date();\nvar minDeliveryDate = new Date();\nminDeliveryDate.setDate(currentDate.getDate() + 2);\n\n```\n    var maxDeliveryDate = new Date();\n    maxDeliveryDate.setDate(currentDate.getDate() + 3);\n\n    var formatDate = function(date) {\n        var dayNames = [\"Sunday\", \"Monday\", \"Tuesday\", \"Wednesday\", \"Thursday\", \"Friday\", \"Saturday\"];\n        var monthNames = [\"January\", \"February\", \"March\", \"April\", \"May\", \"June\",\n            \"July\", \"August\", \"September\", \"October\", \"November\", \"December\"\n        ];\n        var day = date.getDate();\n        var month = monthNames[date.getMonth()];\n        var weekday = dayNames[date.getDay()];\n        return weekday + \", \" + month + \" \" + day;\n    };\n\n    var deliverySpan = document.getElementById('delivery-dates');\n    deliverySpan.textContent = formatDate(minDeliveryDate) + ' – ' + formatDate(maxDeliveryDate);\n});\n```\n\n</script>"
           }
         },
         "buy_buttons": {
@@ -67,60 +86,42 @@
           "settings": {
             "show_quantity_selector": true,
             "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_gift_card_recipient": true,
+            "enable_back_in_stock": false,
+            "show_back_in_stock_name": false,
+            "show_back_in_stock_phone": false
           }
         },
         "pickup_availability": {
           "type": "pickup_availability",
-          "settings": {}
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-            "share_label": "Share",
-            "show_help_desk": true,
-            "help_label": "Need help?",
-            "help_type": "drawer",
-            "help_page": ""
-          }
-        },
-        "complementary": {
-          "type": "complementary",
-          "settings": {
-            "heading": "Pairs well with",
-            "product_limit": 4,
-            "show_vendor": false,
-            "show_price": true
-          }
-        },
-        "sticky_buy_button": {
-          "type": "sticky_buy_button",
           "settings": {}
         }
       },
       "block_order": [
         "vendor",
         "title",
+        "liquid_xqL97N",
+        "liquid_mhhG66",
         "description",
         "countdown",
         "variant_picker",
         "inventory",
+        "liquid_YnEDqf",
         "buy_buttons",
-        "pickup_availability",
-        "share",
-        "complementary",
-        "sticky_buy_button"
+        "pickup_availability"
       ],
       "settings": {
         "enable_sticky_info": true,
         "media_size": 66,
         "gallery_layout": "scroll",
         "thumbnail_position": "beside",
+        "image_ratio": "adapt_first",
         "image_zoom": "lightbox",
         "hide_variants": false,
         "enable_video_autoplay": true,
         "enable_video_looping": true,
         "mobile_layout": "full_width",
+        "image_ratio_mobile": "adapt_first",
         "mobile_thumbnail": false,
         "padding_top": 0,
         "padding_bottom": 84,
@@ -204,213 +205,12 @@
         "description": "<p>If you have any questions, you are always welcome to contact us. We'll get back to you as soon as possible, within 24 hours on weekdays.</p>"
       }
     },
-    "video-hero": {
-      "type": "video-hero",
-      "blocks": {
-        "slide-1": {
-          "type": "slide",
-          "settings": {
-            "heading": "Video slide 1",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "slide-2": {
-          "type": "slide",
-          "settings": {
-            "heading": "Video slide 2",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "slide-3": {
-          "type": "slide",
-          "settings": {
-            "heading": "Video slide 3",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "slide-4": {
-          "type": "slide",
-          "settings": {
-            "heading": "Video slide 4",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        }
-      },
-      "block_order": [
-        "slide-1",
-        "slide-2",
-        "slide-3",
-        "slide-4"
-      ],
-      "settings": {
-        "transparent_header": false,
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "enable_video_autoplay": true,
-        "enable_video_looping": true,
-        "content_width": "medium",
-        "video_url_mobile": "",
-        "color_text": "#ffffff",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_overlay": "#000000",
-        "overlay_opacity": 40,
-        "padding_top": 0,
-        "padding_bottom": 0,
-        "divider": false,
-        "full_width": true,
-        "rounded": false
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "image-1": {
-          "type": "image",
-          "settings": {
-            "subheading": "<em>Tagline</em>",
-            "heading": "Example heading",
-            "link": "",
-            "invert_subheading_heading": false,
-            "image": "",
-            "image_ratio": "landscape",
-            "content_position": "md:items-end md:justify-center",
-            "text_alignment": "center",
-            "image_ratio_mobile": "landscape",
-            "content_position_mobile": "items-end justify-center",
-            "text_alignment_mobile": "center",
-            "highlighted_text": "text",
-            "highlighted_scribble": "circle",
-            "color_text": "#ffffff",
-            "color_highlight": "#fde047",
-            "gradient_highlight": "",
-            "color_overlay": "#000000",
-            "overlay_opacity": 40
-          }
-        },
-        "image-2": {
-          "type": "image",
-          "settings": {
-            "subheading": "<em>Tagline</em>",
-            "heading": "Example heading",
-            "link": "",
-            "invert_subheading_heading": false,
-            "image": "",
-            "image_ratio": "portrait",
-            "content_position": "md:items-end md:justify-start",
-            "text_alignment": "left",
-            "image_ratio_mobile": "portrait",
-            "content_position_mobile": "items-end justify-start",
-            "text_alignment_mobile": "left",
-            "highlighted_text": "text",
-            "highlighted_scribble": "circle",
-            "color_text": "#ffffff",
-            "color_highlight": "#fde047",
-            "gradient_highlight": "",
-            "color_overlay": "#000000",
-            "overlay_opacity": 40
-          }
-        },
-        "image-3": {
-          "type": "image",
-          "settings": {
-            "subheading": "<em>Tagline</em>",
-            "heading": "Example heading",
-            "link": "",
-            "invert_subheading_heading": false,
-            "image": "",
-            "image_ratio": "portrait",
-            "content_position": "md:items-start md:justify-end",
-            "text_alignment": "right",
-            "image_ratio_mobile": "portrait",
-            "content_position_mobile": "items-start justify-end",
-            "text_alignment_mobile": "right",
-            "highlighted_text": "text",
-            "highlighted_scribble": "circle",
-            "color_text": "#ffffff",
-            "color_highlight": "#fde047",
-            "gradient_highlight": "",
-            "color_overlay": "#000000",
-            "overlay_opacity": 40
-          }
-        },
-        "image-4": {
-          "type": "image",
-          "settings": {
-            "subheading": "<em>Tagline</em>",
-            "heading": "Example heading",
-            "link": "",
-            "invert_subheading_heading": true,
-            "image": "",
-            "image_ratio": "landscape",
-            "content_position": "md:items-end md:justify-end",
-            "text_alignment": "right",
-            "image_ratio_mobile": "landscape",
-            "content_position_mobile": "items-end justify-end",
-            "text_alignment_mobile": "right",
-            "highlighted_text": "text",
-            "highlighted_scribble": "circle",
-            "color_text": "#ffffff",
-            "color_highlight": "#fde047",
-            "gradient_highlight": "",
-            "color_overlay": "#000000",
-            "overlay_opacity": 40
-          }
-        }
-      },
-      "block_order": [
-        "image-1",
-        "image-2",
-        "image-3",
-        "image-4"
-      ],
-      "settings": {
-        "heading": "Collage",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "<p>Share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-        "button_label": "View more",
-        "button_link": "",
-        "button_icon": true,
-        "highlighted_text": "scribble",
-        "highlighted_scribble": "basic-underline",
-        "color_text": "",
-        "color_background": "",
-        "gradient_background": "",
-        "color_highlight": "",
-        "gradient_highlight": "",
-        "color_button_text": "",
-        "color_button_background": "",
-        "color_button_gradient": "",
-        "padding_top": 72,
-        "padding_bottom": 0,
-        "divider": false,
-        "full_width": false,
-        "rounded": false,
-        "enable_parallax": true
-      }
-    },
     "image-with-text-1": {
       "type": "image-with-text",
       "blocks": {
         "image": {
           "type": "image",
           "settings": {
-            "image": "",
             "image_width": "custom",
             "image_max_width": 50,
             "image_max_width_mobile": 50
@@ -419,7 +219,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Turn Your Phone Into a Mini Theater",
             "heading_size": "title-md",
             "heading_tag": "h2",
             "highlighted_text": "none",
@@ -429,7 +229,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<p><br/>Enjoy movies, videos, and games on a bigger screen with this HD phone screen amplifier. Simply place your phone behind the lens and experience clearer, larger viewing anywhere. <br/><br/></p>",
             "text_size": "subtext-md",
             "text_max_size": 32,
             "text_font": "body",
@@ -445,11 +245,12 @@
         "text"
       ],
       "settings": {
-        "image": "",
+        "image": "shopify://shop_images/1768217652_phpu5njt3hmnp6h8VUQhnm.jpg",
         "image_height": "600px",
         "image_width": "medium",
         "layout": "image_first",
         "text_alignment": "left",
+        "content_position": "align-self-center",
         "image_height_mobile": "400px",
         "text_alignment_mobile": "left",
         "color_text": "#171717",
@@ -465,6 +266,7 @@
         "padding_top": 72,
         "padding_bottom": 72,
         "divider": false,
+        "full_width": false,
         "rounded": false,
         "enable_parallax": false,
         "parallax_direction": "vertical"
@@ -476,7 +278,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<em><strong>Free shipping and returns</strong></em>",
+            "text": "<em><strong>Free Delivery</strong></em>",
             "text_size": 160,
             "text_font": "body",
             "highlighted_text": "stencil",
@@ -496,6 +298,8 @@
         "color_text": "",
         "color_background": "",
         "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
         "padding_top": 28,
         "padding_bottom": 28,
         "divider": false,
@@ -508,7 +312,6 @@
         "image": {
           "type": "image",
           "settings": {
-            "image": "",
             "image_width": "custom",
             "image_max_width": 50,
             "image_max_width_mobile": 50
@@ -517,7 +320,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Phone Screen Amplifier – Enjoy a Bigger View Anywhere",
             "heading_size": "title-md",
             "heading_tag": "h2",
             "highlighted_text": "none",
@@ -527,7 +330,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
+            "text": "<p>Turn your smartphone into a larger screen in seconds. This foldable HD screen amplifier magnifies your display for clearer, more comfortable viewing — perfect for watching videos, movies, and browsing without eye strain. No power or setup required.</p>",
             "text_size": "subtext-md",
             "text_max_size": 32,
             "text_font": "body",
@@ -543,11 +346,12 @@
         "text"
       ],
       "settings": {
-        "image": "",
+        "image": "shopify://shop_images/1768217652_phpqn9cap89f9pqfqMjXQh.jpg",
         "image_height": "600px",
         "image_width": "medium",
         "layout": "text_first",
         "text_alignment": "left",
+        "content_position": "align-self-center",
         "image_height_mobile": "400px",
         "text_alignment_mobile": "left",
         "color_text": "#171717",
@@ -563,83 +367,148 @@
         "padding_top": 72,
         "padding_bottom": 72,
         "divider": false,
+        "full_width": false,
         "rounded": false,
         "enable_parallax": false,
         "parallax_direction": "vertical"
       }
     },
-    "product-details": {
-      "type": "product-details",
+    "scrolling_text_KEhDrN": {
+      "type": "scrolling-text",
       "blocks": {
-        "collapsible_tab-1": {
-          "type": "collapsible_tab",
+        "text_4Yh6WC": {
+          "type": "text",
           "settings": {
-            "icon": "none",
-            "icon_image": "",
-            "icon_width": 24,
-            "heading": "Collapsible row 1",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "metafields": ""
-          }
-        },
-        "collapsible_tab-2": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "icon_image": "",
-            "icon_width": 24,
-            "heading": "Collapsible row 2",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "metafields": ""
-          }
-        },
-        "collapsible_tab-3": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "icon_image": "",
-            "icon_width": 24,
-            "heading": "Collapsible row 3",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "metafields": ""
-          }
-        },
-        "collapsible_tab-4": {
-          "type": "collapsible_tab",
-          "settings": {
-            "icon": "none",
-            "icon_image": "",
-            "icon_width": 24,
-            "heading": "Collapsible row 4",
-            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>",
-            "metafields": ""
+            "text": "<em><strong>MahdiStore</strong></em>",
+            "text_size": 160,
+            "text_font": "body",
+            "highlighted_text": "stencil",
+            "highlighted_scribble": "circle"
           }
         }
       },
       "block_order": [
-        "collapsible_tab-1",
-        "collapsible_tab-2",
-        "collapsible_tab-3",
-        "collapsible_tab-4"
+        "text_4Yh6WC"
       ],
       "settings": {
-        "open_first_row": true,
-        "specifications_heading": "",
-        "heading": "Product details",
-        "heading_size": "title-md",
-        "heading_alignment": "text-left md:items-end md:flex-row",
-        "heading_tag": "h2",
-        "subheading": "",
-        "description": "",
-        "highlighted_text": "none",
-        "highlighted_scribble": "circle",
-        "color_text": "#000000",
+        "direction": "left",
+        "speed": 20,
+        "grid_horizontal": 70,
+        "enable_twin": false,
+        "enable_parallax": true,
+        "color_text": "",
         "color_background": "",
         "gradient_background": "",
         "color_highlight": "",
         "gradient_highlight": "",
         "padding_top": 28,
         "padding_bottom": 28,
+        "divider": false,
+        "rounded": false
+      }
+    },
+    "17729809015b10134a": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_d9b9869_YNLy9Q": {
+          "type": "ai_gen_block_d9b9869",
+          "settings": {
+            "heading": "Why choose us?",
+            "heading_size": 32,
+            "heading_color": "#171717",
+            "feature_column_label": "Features",
+            "us_column_label": "Us",
+            "others_column_label": "Others",
+            "show_badge": false,
+            "badge_text": "",
+            "badge_background": "#c79027",
+            "badge_text_color": "#ffffff",
+            "feature_1": "Quality You Can Trust",
+            "us_1": "check",
+            "others_1": "cross",
+            "feature_2": "Affordable Prices",
+            "us_2": "check",
+            "others_2": "cross",
+            "feature_3": "Fast & Reliable Shipping",
+            "us_3": "check",
+            "others_3": "cross",
+            "feature_4": "Customer Satisfaction First",
+            "us_4": "check",
+            "others_4": "cross",
+            "feature_5": "Simple & Useful Products",
+            "us_5": "check",
+            "others_5": "cross",
+            "feature_6": "",
+            "us_6": "check",
+            "others_6": "cross",
+            "feature_7": "",
+            "us_7": "check",
+            "others_7": "cross",
+            "feature_8": "",
+            "us_8": "check",
+            "others_8": "cross",
+            "feature_9": "",
+            "us_9": "check",
+            "others_9": "cross",
+            "feature_10": "",
+            "us_10": "check",
+            "others_10": "cross",
+            "desktop_width_percent": 100,
+            "table_border_radius": 8,
+            "header_font_size": 16,
+            "body_font_size": 14,
+            "table_background": "#ffffff",
+            "header_background": "#f9fafb",
+            "header_text_color": "#171717",
+            "body_text_color": "#171717",
+            "border_color": "#e5e7eb",
+            "us_column_background": "#c79027",
+            "us_column_text_color": "#ffffff",
+            "us_cell_background": "#f0fdf4",
+            "check_background": "#10b981",
+            "check_color": "#ffffff",
+            "cross_background": "#ef4444",
+            "cross_color": "#ffffff"
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_d9b9869_YNLy9Q"
+      ],
+      "settings": {}
+    },
+    "number_counter_AQTgEX": {
+      "type": "number-counter",
+      "blocks": {
+        "counter_8qPyRY": {
+          "type": "counter",
+          "settings": {
+            "title": "Happy Customers",
+            "number": "1000",
+            "unit": "+",
+            "duration": 2
+          }
+        }
+      },
+      "block_order": [
+        "counter_8qPyRY"
+      ],
+      "name": "t:sections.number-counter.presets.name",
+      "settings": {
+        "gap": "large",
+        "columns": 4,
+        "text_alignment": "center",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "text_alignment_mobile": "center",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
         "divider": false,
         "full_width": false,
         "rounded": false
@@ -651,8 +520,8 @@
         "question-1": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "title": "Does this work with all smartphones?",
+            "text": "<p>Yes. The phone screen amplifier is designed to work with <strong>most smartphones</strong>, including iPhone, Samsung, and other Android devices.<br/></p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -660,8 +529,8 @@
         "question-2": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "title": "Does it require batteries or electricity?",
+            "text": "<p>No. The amplifier uses an <strong>HD optical lens</strong>, so it works without batteries, charging, or any apps</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -669,8 +538,8 @@
         "question-3": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
+            "title": "How much bigger does the screen look?",
+            "text": "<p>The magnifying lens enlarges your phone screen <strong>2–3 times</strong>, making videos, movies, and text easier to see.</p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -678,28 +547,8 @@
         "question-4": {
           "type": "question",
           "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "question-5": {
-          "type": "question",
-          "settings": {
-            "title": "Frequently asked question",
-            "text": "<p>Use this text to answer questions in as much detail as possible for your customers.</p>",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "contact": {
-          "type": "contact",
-          "settings": {
-            "text": "<p>Don't hestitate to contact us</p>",
-            "show_phone": false,
-            "avatar": "",
-            "avatar_height": 60,
+            "title": "Does it help reduce eye strain?",
+            "text": "<p>Yes. By enlarging the screen, it allows you to <strong>view content more comfortably without holding your phone too close</strong>.<br/></p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -709,9 +558,7 @@
         "question-1",
         "question-2",
         "question-3",
-        "question-4",
-        "question-5",
-        "contact"
+        "question-4"
       ],
       "settings": {
         "style": "with-background",
@@ -723,17 +570,20 @@
         "description": "<p>Please read our <a href=\"#\" title=\"FAQ's\">FAQs</a> page to find out more.</p>",
         "button_label": "",
         "button_link": "",
+        "button_external": false,
         "button_icon": true,
         "highlighted_text": "none",
         "highlighted_scribble": "circle",
         "color_text": "#ffffff",
-        "color_background": "#171717",
+        "color_background": "#c79027",
         "gradient_background": "",
         "color_highlight": "",
         "gradient_highlight": "",
         "color_button_text": "#171717",
         "color_button_background": "#ffffff",
         "color_button_gradient": "",
+        "color_overlay": "#ffffff",
+        "overlay_opacity": 4,
         "padding_top": 84,
         "padding_bottom": 84,
         "divider": false,
@@ -741,8 +591,41 @@
         "rounded": false
       }
     },
+    "17729802299ab0c0a4": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_THjTdz": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "review_data": "real_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_THjTdz"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "product_limit": 6,
         "columns": 4,
@@ -808,13 +691,14 @@
   "order": [
     "main-product",
     "help-drawer",
-    "video-hero",
-    "collage",
     "image-with-text-1",
     "scrolling-text",
     "image-with-text-2",
-    "product-details",
+    "scrolling_text_KEhDrN",
+    "17729809015b10134a",
+    "number_counter_AQTgEX",
     "faq",
+    "17729802299ab0c0a4",
     "product-recommendations",
     "recently-viewed"
   ]
