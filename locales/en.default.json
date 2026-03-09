@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "general": {
     "accessibility": {
@@ -181,7 +190,7 @@
     "product_bundle": {
       "total": "Total",
       "remove": "Remove",
-      "add_to_cart": "Add to cart",
+      "add_to_cart": "Add to cart →",
       "discounts_at_checkout": "Discounts will be applied at checkout."
     },
     "quick_order_list": {
@@ -447,7 +456,7 @@
       "product_variants": "Product variants",
       "sold_out": "Sold Out",
       "unavailable": "Unavailable",
-      "add_to_cart": "Add to cart",
+      "add_to_cart": "Add to cart →",
       "choose_options": "Choose options",
       "choose_product_options": "Choose options for {{ product_name }}",
       "view_product": "View product",
