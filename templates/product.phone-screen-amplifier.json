@@ -24,13 +24,13 @@
             "title_size": "product-title-md",
             "title_size_mobile": "product-title-md",
             "show_price": true,
-            "show_rating": true
+            "show_rating": false
           }
         },
         "liquid_mhhG66": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\">📱 Bigger Screen Instantly</span> – Enlarge your phone display and enjoy videos, movies, and browsing on a bigger screen in seconds.<br><br>\n\n<span style=\"font-weight: bold;\">👀 More Comfortable Viewing</span> – The HD optical lens helps reduce eye strain and makes watching content easier and more enjoyable.<br><br>\n\n<span style=\"font-weight: bold;\">🎬 Perfect for Movies & Videos</span> – Turn your smartphone into a mini theater anywhere — no apps, batteries, or setup required.\n</div>"
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\"> Bigger Screen Instantly</span> – Enlarge your phone screen and enjoy videos and browsing on a bigger display.<br><br>\n\n<span style=\"font-weight: bold;\"> Comfortable Viewing</span> – HD optical lens helps reduce eye strain for easier watching.<br><br>\n\n<span style=\"font-weight: bold;\"> Perfect for Movies</span> – Turn your smartphone into a mini theater anywhere — no apps or batteries needed.\n</div>"
           }
         },
         "variant_picker": {
