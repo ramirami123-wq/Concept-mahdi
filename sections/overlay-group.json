@@ -31,7 +31,7 @@
         "empty_cart_collections": [],
         "recent_products_enabled": true,
         "recent_products_heading": "Recently viewed",
-        "recent_products_limit": 5,
+        "recent_products_limit": 10,
         "show_recent_products_vendor": false,
         "show_recent_products_price": true
       }
