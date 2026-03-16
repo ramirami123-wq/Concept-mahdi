@@ -12,23 +12,6 @@
     "slideshow": {
       "type": "slideshow",
       "blocks": {
-        "video_83Rx3X": {
-          "type": "video",
-          "settings": {
-            "video": "shopify://files/videos/snaptik_7479134555467779350_v3.mp4",
-            "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
-            "description": "",
-            "video_url_mobile": "",
-            "heading": "Video slide",
-            "heading_size": "title-lg tracking-heading",
-            "heading_tag": "h2",
-            "button_label": "",
-            "button_link": "",
-            "button_style": "primary",
-            "button_external": false,
-            "button_icon": false
-          }
-        },
         "slide-1": {
           "type": "image",
           "settings": {
@@ -46,7 +29,6 @@
         }
       },
       "block_order": [
-        "video_83Rx3X",
         "slide-1"
       ],
       "settings": {
