@@ -15,7 +15,8 @@
         "slide-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/pexels-garrettmorrow-1337247.jpg",
+            "image": "shopify://shop_images/pexels-sorjigrey-9956769.jpg",
+            "image_mobile": "shopify://shop_images/pexels-sorjigrey-9956769.jpg",
             "heading": "",
             "heading_size": "title-md",
             "heading_tag": "h2",
@@ -114,14 +115,14 @@
       "settings": {
         "product": "magnetic-neck-phone-stand",
         "enable_sticky_info": true,
-        "media_size": 66,
+        "media_size": 65,
         "gallery_layout": "thumbnail",
         "thumbnail_position": "beside",
         "image_ratio": "adapt_first",
         "image_zoom": "lightbox",
         "hide_variants": false,
         "enable_video_autoplay": true,
-        "enable_video_looping": true,
+        "enable_video_looping": false,
         "mobile_layout": "partial",
         "image_ratio_mobile": "adapt_first",
         "mobile_thumbnail": false,
