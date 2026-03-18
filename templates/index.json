@@ -70,7 +70,7 @@
         "description_niYhag": {
           "type": "description",
           "settings": {
-            "text_size": "text-base"
+            "text_size": "text-sm"
           }
         },
         "variant_picker_Tr7qUP": {
@@ -115,7 +115,7 @@
       "settings": {
         "product": "magnetic-neck-phone-stand",
         "enable_sticky_info": false,
-        "media_size": 65,
+        "media_size": 50,
         "gallery_layout": "thumbnail",
         "thumbnail_position": "beside",
         "image_ratio": "adapt_first",
