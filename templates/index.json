@@ -123,7 +123,7 @@
         "hide_variants": false,
         "enable_video_autoplay": true,
         "enable_video_looping": true,
-        "mobile_layout": "partial",
+        "mobile_layout": "full_width",
         "image_ratio_mobile": "adapt_first",
         "mobile_thumbnail": false,
         "padding_top": 72,
