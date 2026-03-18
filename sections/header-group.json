@@ -45,7 +45,7 @@
         "color_highlight": "#ffddbf",
         "gradient_highlight": "",
         "hide_homepage": false,
-        "full_width": true,
+        "full_width": false,
         "rounded": true
       }
     },
