@@ -116,7 +116,7 @@
       "settings": {
         "product": "magnetic-neck-phone-stand",
         "enable_sticky_info": false,
-        "media_size": 50,
+        "media_size": 40,
         "gallery_layout": "thumbnail",
         "thumbnail_position": "beside",
         "image_ratio": "adapt_first",
