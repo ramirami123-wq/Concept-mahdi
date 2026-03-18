@@ -14,9 +14,10 @@
       "blocks": {
         "slide-1": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/pexels-sorjigrey-9956769.jpg",
-            "image_mobile": "shopify://shop_images/ChatGPT_Image_Mar_18_2026_03_56_54_PM.png",
+            "image_mobile": "shopify://shop_images/gadgets-and-tech.png",
             "heading": "",
             "heading_size": "title-sm",
             "heading_tag": "h2",
