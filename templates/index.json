@@ -56,77 +56,34 @@
         "parallax_direction": "vertical"
       }
     },
-    "featured_product_qhR8Xe": {
-      "type": "featured-product",
-      "blocks": {
-        "title_BhxxAt": {
-          "type": "title",
-          "settings": {
-            "title_size": "product-title-md",
-            "title_size_mobile": "product-title-md",
-            "show_price": true,
-            "show_rating": true
-          }
-        },
-        "description_niYhag": {
-          "type": "description",
-          "settings": {
-            "text_size": "text-sm"
-          }
-        },
-        "variant_picker_Tr7qUP": {
-          "type": "variant_picker",
-          "settings": {
-            "show_variant_labels": true,
-            "picker_type": "button",
-            "enable_color_swatches": true,
-            "color_swatch_type": "color",
-            "size_chart": ""
-          }
-        },
-        "buy_buttons_7GDBgT": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_quantity_selector": true,
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true,
-            "enable_back_in_stock": false,
-            "show_back_in_stock_name": false,
-            "show_back_in_stock_phone": false
-          }
-        },
-        "pickup_availability_4WFCMM": {
-          "type": "pickup_availability",
-          "settings": {}
-        },
-        "read_more_AiJ8NT": {
-          "type": "read_more",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "title_BhxxAt",
-        "description_niYhag",
-        "variant_picker_Tr7qUP",
-        "buy_buttons_7GDBgT",
-        "pickup_availability_4WFCMM",
-        "read_more_AiJ8NT"
-      ],
-      "name": "t:sections.featured-product.presets.name",
+    "featured_collection_kekFk3": {
+      "type": "featured-collection",
+      "name": "t:sections.featured-collection.presets.name",
       "settings": {
-        "product": "magnetic-neck-phone-stand",
-        "enable_sticky_info": false,
-        "media_size": 40,
-        "gallery_layout": "thumbnail",
-        "thumbnail_position": "beside",
-        "image_ratio": "adapt_first",
-        "image_zoom": "lightbox",
-        "hide_variants": false,
-        "enable_video_autoplay": true,
-        "enable_video_looping": true,
-        "mobile_layout": "full_width",
-        "image_ratio_mobile": "adapt",
-        "mobile_thumbnail": false,
+        "collection": "",
+        "products": [],
+        "product_limit": 6,
+        "columns": 4,
+        "carousel_on_desktop": true,
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "heading": "Featured collection",
+        "heading_size": "title-md",
+        "heading_alignment": "text-left md:items-end md:flex-row",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
         "padding_top": 72,
         "padding_bottom": 72,
         "divider": false,
@@ -323,7 +280,7 @@
   },
   "order": [
     "slideshow",
-    "featured_product_qhR8Xe",
+    "featured_collection_kekFk3",
     "scrolling-text-1",
     "rich-text-1",
     "scrolling_text_DzpT8d",
