@@ -11,26 +11,6 @@
   "name": "t:sections.overlay-group.name",
   "type": "custom.overlay",
   "sections": {
-    "177384330684c889d5": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_ffe9de2_WJgJqq": {
-          "type": "ai_gen_block_ffe9de2",
-          "settings": {
-            "image": "shopify://shop_images/gadgets-and-tech.png",
-            "image_ratio": "adapt",
-            "image_fit": "cover",
-            "border_radius": 8,
-            "desktop_width_percent": 100
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_ffe9de2_WJgJqq"
-      ],
-      "settings": {}
-    },
     "cart-drawer": {
       "type": "cart-drawer",
       "settings": {
@@ -338,7 +318,6 @@
     }
   },
   "order": [
-    "177384330684c889d5",
     "cart-drawer",
     "search-drawer",
     "newsletter-popup",
