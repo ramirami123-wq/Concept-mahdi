@@ -231,6 +231,29 @@
         "parallax_direction": "vertical"
       }
     },
+    "reveal_video_with_text_overlay_f4DfRd": {
+      "type": "reveal-video-with-text-overlay",
+      "name": "t:sections.reveal-video-with-text-overlay.presets.name",
+      "settings": {
+        "video": "shopify://files/videos/snaptik_7351253838013156609_v3.mp4",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "content_width": "small",
+        "content_position": "md:items-end md:justify-start",
+        "text_alignment": "left",
+        "content_position_mobile": "items-end justify-start",
+        "text_alignment_mobile": "left",
+        "color_text": "#ffffff",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "color_overlay": "#171717",
+        "overlay_opacity": 70,
+        "enable_parallax": true
+      }
+    },
     "scrolling-text": {
       "type": "scrolling-text",
       "blocks": {
@@ -713,6 +736,7 @@
     "main-product",
     "help-drawer",
     "image-with-text-1",
+    "reveal_video_with_text_overlay_f4DfRd",
     "scrolling-text",
     "image-with-text-2",
     "scrolling_text_KEhDrN",
