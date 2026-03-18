@@ -30,7 +30,7 @@
         "liquid_mhhG66": {
           "type": "liquid",
           "settings": {
-            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\n<span style=\"font-weight: bold;\"> Bigger Screen Instantly</span> – Enlarge your phone screen and enjoy videos and browsing on a bigger display.<br><br>\n\n<span style=\"font-weight: bold;\"> Comfortable Viewing</span> – HD optical lens helps reduce eye strain for easier watching.<br><br>\n\n<span style=\"font-weight: bold;\"> Perfect for Movies</span> – Turn your smartphone into a mini theater anywhere — no apps or batteries needed.\n</div>"
+            "liquid": "<div style=\"padding: 12px; text-align: left; background-color: #f9f9f9; font-size: 15px; border-radius: 12px; margin-top: 10px; margin-bottom: 10px; line-height: 1.6;\">\nMagnetic Neck Phone Holder – enjoy hands-free comfort like never before with a flexible design that keeps your phone at the perfect viewing angle wherever you are.<br><br>\nFeaturing a strong magnetic grip and 360° adjustability, it’s perfect for watching videos, making calls, or gaming in total comfort.<br><br>\nOrder now and experience effortless viewing anywhere in Lebanon with free delivery in 3–5 days.\n</div>"
           }
         },
         "variant_picker": {
@@ -178,7 +178,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Turn Your Phone Into a Mini Theater",
+            "heading": "Hands-Free Comfort Anywhere",
             "heading_size": "title-md",
             "heading_tag": "h2",
             "highlighted_text": "none",
@@ -188,7 +188,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Enjoy movies, videos, and games on a bigger screen with this HD phone screen amplifier. Simply place your phone behind the lens and experience clearer, larger viewing anywhere. </p>",
+            "text": "<p>Relax and enjoy your phone without holding it — perfect for bed, couch, or travel.</p><p></p>",
             "text_size": "subtext-md",
             "text_max_size": 32,
             "text_font": "body",
@@ -204,7 +204,7 @@
         "text"
       ],
       "settings": {
-        "image": "shopify://shop_images/1768217652_phpu5njt3hmnp6h8VUQhnm.jpg",
+        "image": "shopify://shop_images/1772112614_phpjma3e1bbl8jt4twYMar_34c28061-2567-4a76-9a02-67b9ef207eda.jpg",
         "image_height": "600px",
         "image_width": "medium",
         "layout": "image_first",
@@ -279,7 +279,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Enjoy a Bigger View Anywhere",
+            "heading": "Watch Smarter, Not Harder",
             "heading_size": "title-md",
             "heading_tag": "h2",
             "highlighted_text": "none",
@@ -289,7 +289,7 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>Turn your smartphone into a larger screen in seconds. This foldable HD screen amplifier magnifies your display for clearer, more comfortable viewing. No power or setup required.</p>",
+            "text": "<p>A flexible magnetic holder that keeps your screen at the perfect angle every time.</p>",
             "text_size": "subtext-md",
             "text_max_size": 32,
             "text_font": "body",
@@ -305,7 +305,7 @@
         "text"
       ],
       "settings": {
-        "image": "shopify://shop_images/1768217652_phpqn9cap89f9pqfqMjXQh.jpg",
+        "image": "shopify://shop_images/1772112615_phpdsq3tc7rb32p4tiztJX.jpg",
         "image_height": "600px",
         "image_width": "medium",
         "layout": "text_first",
@@ -479,8 +479,8 @@
         "question-1": {
           "type": "question",
           "settings": {
-            "title": "Does this work with all smartphones?",
-            "text": "<p>Yes. The phone screen amplifier is designed to work with <strong>most smartphones</strong>, including iPhone, Samsung, and other Android devices.<br/></p>",
+            "title": "Is the phone holder compatible with all phones?",
+            "text": "<p>Yes, it works with most smartphones thanks to its strong magnetic grip.</p><p></p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -488,8 +488,8 @@
         "question-2": {
           "type": "question",
           "settings": {
-            "title": "Does it require batteries or electricity?",
-            "text": "<p>No. The amplifier uses an <strong>HD optical lens</strong>, so it works without batteries, charging, or any apps</p>",
+            "title": "Is it comfortable to wear for long periods?",
+            "text": "<p>Absolutely, the flexible and lightweight design makes it comfortable around your neck.</p><p></p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -497,8 +497,8 @@
         "question-3": {
           "type": "question",
           "settings": {
-            "title": "How much bigger does the screen look?",
-            "text": "<p>The magnifying lens enlarges your phone screen <strong>2–3 times</strong>, making videos, movies, and text easier to see.</p>",
+            "title": "Can I adjust the viewing angle?",
+            "text": "<p>Yes, it features 360° adjustability so you can find your perfect angle easily.</p><p></p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -506,8 +506,8 @@
         "question-4": {
           "type": "question",
           "settings": {
-            "title": "Does it help reduce eye strain?",
-            "text": "<p>Yes. By enlarging the screen, it allows you to <strong>view content more comfortably without holding your phone too close</strong>.<br/></p>",
+            "title": "Is the magnet strong enough to hold my phone securely?",
+            "text": "<p>Yes, the built-in magnet is designed to keep your phone stable and safe.</p><p></p>",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
           }
@@ -567,6 +567,68 @@
         "judge_me_reviews_review_widget_THjTdz"
       ],
       "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
+    },
+    "multicolumn_with_icons_Ew6xdL": {
+      "type": "multicolumn-with-icons",
+      "blocks": {
+        "column_Qidphz": {
+          "type": "column",
+          "settings": {
+            "icon": "support",
+            "custom_icon": "",
+            "heading": "24/7 support",
+            "text": "",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        },
+        "column_QJQTie": {
+          "type": "column",
+          "settings": {
+            "icon": "box",
+            "custom_icon": "",
+            "heading": "FreeDelivery",
+            "text": "",
+            "highlighted_text": "none",
+            "highlighted_scribble": "circle"
+          }
+        }
+      },
+      "block_order": [
+        "column_Qidphz",
+        "column_QJQTie"
+      ],
+      "name": "t:sections.multicolumn-with-icons.presets.name",
+      "settings": {
+        "style": "with-border",
+        "columns": 3,
+        "text_alignment": "left",
+        "heading": "",
+        "heading_size": "title-md",
+        "heading_alignment": "text-center md:items-center",
+        "heading_tag": "h2",
+        "subheading": "",
+        "description": "",
+        "button_label": "",
+        "button_link": "",
+        "button_external": false,
+        "button_icon": true,
+        "highlighted_text": "none",
+        "highlighted_scribble": "circle",
         "color_text": "",
         "color_background": "",
         "gradient_background": "",
@@ -658,6 +720,7 @@
     "number_counter_AQTgEX",
     "faq",
     "17729802299ab0c0a4",
+    "multicolumn_with_icons_Ew6xdL",
     "product-recommendations",
     "recently-viewed"
   ]
