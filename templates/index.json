@@ -15,7 +15,8 @@
         "image_xALyzr": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/gadgets-and-tech.png",
+            "image": "shopify://shop_images/pexels-huy-phan-316220-2015876.jpg",
+            "image_mobile": "shopify://shop_images/pexels-huy-phan-316220-2015876.jpg",
             "heading": "",
             "heading_size": "title-lg tracking-heading",
             "heading_tag": "h2",
