@@ -27,6 +27,7 @@
         },
         "title": {
           "type": "title",
+          "disabled": true,
           "settings": {
             "title_size": "title-xl"
           }
