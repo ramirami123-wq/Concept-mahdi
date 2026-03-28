@@ -18,21 +18,9 @@
           "type": "announcement",
           "settings": {
             "icon": "rocket",
-            "text": "<strong>Fast Delivery </strong>",
+            "text": "<strong>Fast Delivery</strong>",
             "link": "",
             "hide_icon_mobile": false,
-            "text_mobile": "",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
-          }
-        },
-        "announcement-2": {
-          "type": "announcement",
-          "settings": {
-            "icon": "none",
-            "text": "",
-            "link": "",
-            "hide_icon_mobile": true,
             "text_mobile": "",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
@@ -40,8 +28,7 @@
         }
       },
       "block_order": [
-        "announcement_cpNghq",
-        "announcement-2"
+        "announcement_cpNghq"
       ],
       "settings": {
         "show_social": true,
