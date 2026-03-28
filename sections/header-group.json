@@ -17,8 +17,8 @@
         "announcement-2": {
           "type": "announcement",
           "settings": {
-            "icon": "email",
-            "text": "<strong>Free Delivery!</strong>",
+            "icon": "none",
+            "text": "",
             "link": "",
             "hide_icon_mobile": true,
             "text_mobile": "",
