@@ -20,7 +20,7 @@
             "icon": "rocket",
             "text": "<strong>Fast Delivery </strong>",
             "link": "",
-            "hide_icon_mobile": true,
+            "hide_icon_mobile": false,
             "text_mobile": "",
             "highlighted_text": "none",
             "highlighted_scribble": "circle"
