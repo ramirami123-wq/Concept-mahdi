@@ -17,8 +17,8 @@
         "announcement_cpNghq": {
           "type": "announcement",
           "settings": {
-            "icon": "none",
-            "text": "<strong>MD Tech Store Welcomes You</strong>",
+            "icon": "box",
+            "text": "<em><strong>Free Delivery</strong></em>",
             "link": "",
             "hide_icon_mobile": false,
             "text_mobile": "",
