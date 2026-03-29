@@ -17,8 +17,8 @@
         "announcement_cpNghq": {
           "type": "announcement",
           "settings": {
-            "icon": "rocket",
-            "text": "<strong>Fast Delivery</strong>",
+            "icon": "none",
+            "text": "<strong>MD Tech Store Welcomes You</strong>",
             "link": "",
             "hide_icon_mobile": false,
             "text_mobile": "",
