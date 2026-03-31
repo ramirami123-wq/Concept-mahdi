@@ -131,8 +131,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "text": "<p>We believe smart gadgets should make life easier.</p><p>Our store offers practical electronics and innovative devices designed to simplify everyday tasks — from phone accessories to multifunctional tools like 3-in-1 vacuum cleaners and other useful tech.</p><p>We carefully choose products that combine quality, convenience, and modern design, so you can enjoy technology that actually improves your daily routine.</p><p>Our mission is simple: <strong>bring you useful, affordable gadgets that make everyday life smarter and easier.</strong></p>",
-            "text_size": "subtext-md",
+            "text": "<p><em><strong>We advise you to stop wasting time on tools that don’t deliver!</strong></em><em><br/>We bring you smart, affordable electronics designed to solve real problems — from clutter-free phone gear to powerful 3‑in‑1 cleaners that do more in less time.<br/>Every product is vetted for quality, usefulness, and modern style, so you get maximum benefit without the guesswork.<br/>Limited stock on top sellers — </em><em><strong>Shop now and enjoy fast and free shipping plus our satisfaction guarantee.</strong></em></p>",
+            "text_size": "subtext-lg",
             "text_max_size": 32,
             "text_font": "body",
             "secondary_color": false,
