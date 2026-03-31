@@ -21,7 +21,7 @@
             "text": "<em><strong>🚚 Free Delivery — Shop Now!</strong></em>",
             "link": "",
             "hide_icon_mobile": false,
-            "text_mobile": "",
+            "text_mobile": "<em><strong>🚚 Free Delivery — Shop Now!</strong></em>",
             "highlighted_text": "full_text",
             "highlighted_scribble": "squiggle-underline"
           }
