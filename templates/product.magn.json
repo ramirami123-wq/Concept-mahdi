@@ -235,8 +235,8 @@
       "type": "reveal-video-with-text-overlay",
       "name": "t:sections.reveal-video-with-text-overlay.presets.name",
       "settings": {
-        "video": "shopify://files/videos/snaptik_7351253838013156609_v3.mp4",
-        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video": "shopify://files/videos/creative 4.mp4",
+        "video_url": "",
         "description": "",
         "content_width": "small",
         "content_position": "md:items-end md:justify-start",
@@ -470,7 +470,7 @@
             "title": "Happy Customers",
             "number": "1000",
             "unit": "+",
-            "duration": 2
+            "duration": 3
           }
         }
       },
