@@ -18,12 +18,12 @@
           "type": "announcement",
           "settings": {
             "icon": "box",
-            "text": "<em><strong>Free Delivery</strong></em>",
+            "text": "<em><strong>🚚 Free Delivery — Shop Now!</strong></em>",
             "link": "",
             "hide_icon_mobile": false,
             "text_mobile": "",
-            "highlighted_text": "none",
-            "highlighted_scribble": "circle"
+            "highlighted_text": "full_text",
+            "highlighted_scribble": "squiggle-underline"
           }
         }
       },
