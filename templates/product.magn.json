@@ -27,6 +27,13 @@
             "show_rating": false
           }
         },
+        "text_xw4eRC": {
+          "type": "text",
+          "settings": {
+            "text": "<em><strong>⏰ Ends This Weekend — Grab Yours Before It’s Gone! 🛒 </strong></em>⏳ <strong>آخر فرصة هالويكند — توصيل سريع + دفع عند الاستلام!</strong> ✅",
+            "text_size": "text-base lg:text-lg"
+          }
+        },
         "liquid_mhhG66": {
           "type": "liquid",
           "settings": {
@@ -64,6 +71,7 @@
       "block_order": [
         "liquid_xqL97N",
         "title",
+        "text_xw4eRC",
         "liquid_mhhG66",
         "variant_picker",
         "buy_buttons",
