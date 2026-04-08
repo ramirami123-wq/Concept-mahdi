@@ -28,6 +28,13 @@
             "show_rating": true
           }
         },
+        "text_QtwpTy": {
+          "type": "text",
+          "settings": {
+            "text": "🔥 <strong>Best Value: Buy 2</strong> (one for home + one for car)💵 <strong>Cash on Delivery</strong> | 🚚 <strong>1–3 days delivery</strong>",
+            "text_size": "text-base"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
@@ -105,6 +112,7 @@
       "block_order": [
         "vendor",
         "title",
+        "text_QtwpTy",
         "description",
         "countdown",
         "variant_picker",
