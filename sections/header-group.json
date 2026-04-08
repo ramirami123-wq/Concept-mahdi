@@ -19,9 +19,9 @@
           "settings": {
             "icon": "box",
             "text": "<em><strong>🚚 Fast Delivery  | Shop Now !</strong></em>",
-            "link": "shopify://products/magnetic-neck-phone-stand",
+            "link": "",
             "hide_icon_mobile": false,
-            "text_mobile": "<em><strong>🚚 Fast Delivery — Buy Now!</strong></em>",
+            "text_mobile": "<em><strong>🚚 Fast Delivery — Shop Now!</strong></em>",
             "highlighted_text": "text",
             "highlighted_scribble": "circle"
           }
