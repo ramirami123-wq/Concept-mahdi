@@ -18,10 +18,10 @@
           "type": "announcement",
           "settings": {
             "icon": "box",
-            "text": "<em><strong>🚚 Fast Delivery  | Shop Now !</strong></em>",
+            "text": "<em><strong>🚚 Fast Delivery ($3.9 Only)  🔥</strong></em>",
             "link": "",
             "hide_icon_mobile": false,
-            "text_mobile": "<em><strong>🚚 Fast Delivery — Shop Now!</strong></em>",
+            "text_mobile": "<em><strong>🚚 Fast Delivery ($3.9 Only)  🔥</strong></em>",
             "highlighted_text": "text",
             "highlighted_scribble": "circle"
           }
