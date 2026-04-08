@@ -41,16 +41,6 @@
             "text_size": "text-base"
           }
         },
-        "countdown": {
-          "type": "countdown",
-          "settings": {
-            "heading": "Hurry up!",
-            "subheading": "Sale end in:",
-            "color_text": "#e11d48",
-            "color_background": "#fff1f2",
-            "gradient_background": ""
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -114,7 +104,6 @@
         "title",
         "text_QtwpTy",
         "description",
-        "countdown",
         "variant_picker",
         "inventory",
         "buy_buttons",
