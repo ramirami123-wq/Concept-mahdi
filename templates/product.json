@@ -370,6 +370,33 @@
         "full_width": false,
         "rounded": false
       }
+    },
+    "177580931037f05085": {
+      "type": "apps",
+      "blocks": {
+        "bundler_bundler_target_element_Yngdjf": {
+          "type": "shopify://apps/bundler/blocks/bundler-target-element/7a6ae1b8-3b16-449b-8429-8bb89a62c664",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "bundler_bundler_target_element_Yngdjf"
+      ],
+      "settings": {
+        "color_text": "",
+        "color_background": "",
+        "gradient_background": "",
+        "color_highlight": "",
+        "gradient_highlight": "",
+        "color_button_text": "",
+        "color_button_background": "",
+        "color_button_gradient": "",
+        "padding_top": 72,
+        "padding_bottom": 72,
+        "divider": false,
+        "full_width": false,
+        "rounded": false
+      }
     }
   },
   "order": [
@@ -379,6 +406,7 @@
     "faq",
     "product-recommendations",
     "recently-viewed",
-    "177297751426519bd7"
+    "177297751426519bd7",
+    "177580931037f05085"
   ]
 }
